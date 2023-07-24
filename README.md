@@ -11,7 +11,14 @@ Our objective is to develop a robust and contextually-aware video captioning sys
 2) For the already extracted features use [this](https://drive.google.com/drive/folders/1qhRJg4d-5bRVM-F_fkoZBmHjSY1fjEBe?usp=sharing)
 
 # Results
-After training LSTM and GRU models using spatio-temporal features, the generated weights are utilized to generate captions for input videos. The performance of these models is then evaluated using various metrics mentioned. Among these two approaches, the GAUSSIAN model with GRU (Gated Recurrent Unit) achieved the highest METEOR score of 0.282. Overall, the model utilizing spatio-temporal features with GRU outperformed the model employing LSTMs.
+After training LSTM and GRU models using spatio-temporal features, the generated weights are utilized to generate captions for input videos.Once the models were trained, they were utilized to generate captions for new, unseen videos. The weights learned during training played a crucial role in determining the attention given to different regions and frames within the videos. By focusing on the most relevant visual cues, the models aimed to generate accurate and descriptive captions. The performance of these models is then evaluated using various metrics mentioned. Among these two approaches, the GAUSSIAN model with GRU (Gated Recurrent Unit) achieved the highest METEOR score of 0.282. Overall, the model utilizing spatio-temporal features with GRU outperformed the model employing LSTMs.
 
-# The performance table:
+# Evaluation table
+
+| Name         | Age | Country      |
+|--------------|-----|--------------|
+| John Smith   | 30  | USA          |
+| Jane Doe     | 25  | Canada       |
+| Alex Johnson | 28  | United Kingdom |
+
 
