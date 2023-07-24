@@ -9,3 +9,9 @@ Our objective is to develop a robust and contextually-aware video captioning sys
 # For extracting the features
 1) Download the original MSVD dataset from [here](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
 2) For the already extracted features use [this](https://drive.google.com/drive/folders/1qhRJg4d-5bRVM-F_fkoZBmHjSY1fjEBe?usp=sharing)
+
+# Results
+After training LSTM and GRU models using spatio-temporal features, the generated weights are utilized to generate captions for input videos. The performance of these models is then evaluated using various metrics mentioned. Among these two approaches, the GAUSSIAN model with GRU (Gated Recurrent Unit) achieved the highest METEOR score of 0.282. Overall, the model utilizing spatio-temporal features with GRU outperformed the model employing LSTMs.
+
+# The performance table:
+
