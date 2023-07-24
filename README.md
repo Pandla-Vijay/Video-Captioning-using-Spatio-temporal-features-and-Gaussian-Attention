@@ -7,4 +7,4 @@ In this project, we explore the application of Long Short-Term Memory (LSTM) and
 Our objective is to develop a robust and contextually-aware video captioning system that can automatically generate meaningful and accurate descriptions, effectively bridging the gap between visual content and natural language, with potential applications in video indexing, retrieval, and accessibility for visually impaired individuals. Through this project, we aim to contribute to the growing field of video understanding and multimodal AI research, while fostering advancements in human-computer interaction and multimedia analysis.
 
 # For extracting the features
-1) Download the original MSVD dataset from [here] {https://www.cs.utexas.edu/users/ml/clamp/videoDescription/} 
+1) Download the original MSVD dataset from [here](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
