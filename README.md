@@ -8,3 +8,4 @@ Our objective is to develop a robust and contextually-aware video captioning sys
 
 # For extracting the features
 1) Download the original MSVD dataset from [here](https://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
+2) For the already extracted features use [this](https://drive.google.com/drive/folders/1qhRJg4d-5bRVM-F_fkoZBmHjSY1fjEBe?usp=sharing)
