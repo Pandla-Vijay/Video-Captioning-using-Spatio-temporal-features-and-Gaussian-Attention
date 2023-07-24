@@ -15,10 +15,10 @@ After training LSTM and GRU models using spatio-temporal features, the generated
 
 # Evaluation table
 
-| Name         | Age | Country      |
-|--------------|-----|--------------|
-| John Smith   | 30  | USA          |
-| Jane Doe     | 25  | Canada       |
-| Alex Johnson | 28  | United Kingdom |
+| Model         | Bleu_1  | Bleu_2  | Bleu_3  | Bleu_4  | METEOR  | ROUGE_L  | CIDEr  |
+|---------------|---------|---------|---------|---------|---------|----------|--------|
+| LSTM + GAUSS  | 0.646   | 0.492   | 0.392   | 0.305   | 0.240   | 0.583    | 0.339  |
+| GRU + GAUSS   | 0.777   | 0.639   | 0.521   | 0.398   | 0.282   | 0.664    | 0.624  |
+
 
 
